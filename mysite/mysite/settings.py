@@ -132,3 +132,6 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
+
+import pymysql
+pymysql.install_as_MySQLdb()
